@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T15:43:27 IST" name="Suite" finished-at="2024-04-02T15:44:32 IST" duration-ms="64748">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T15:43:27 IST" name="edgetest" finished-at="2024-04-02T15:44:32 IST" duration-ms="64748">
+      <class name="testCases.TC_008_VerifyBackDate">
+        <test-method signature="verifyLast15Days()[pri:0, instance:testCases.TC_008_VerifyBackDate@5890e879]" started-at="2024-04-02T15:44:27 IST" name="verifyLast15Days" finished-at="2024-04-02T15:44:27 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLast15Days -->
+      </class> <!-- testCases.TC_008_VerifyBackDate -->
+      <class name="testCases.TC_004_ClickOnTruTime">
+        <test-method signature="verifyTruTime()[pri:0, instance:testCases.TC_004_ClickOnTruTime@268f106e]" started-at="2024-04-02T15:44:24 IST" name="verifyTruTime" finished-at="2024-04-02T15:44:24 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTruTime -->
+      </class> <!-- testCases.TC_004_ClickOnTruTime -->
+      <class name="testCases.TC_003_InputBox">
+        <test-method signature="enterInput(java.lang.String)[pri:0, instance:testCases.TC_003_InputBox@5b247367]" started-at="2024-04-02T15:44:20 IST" name="enterInput" finished-at="2024-04-02T15:44:23 IST" duration-ms="3605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInput -->
+      </class> <!-- testCases.TC_003_InputBox -->
+      <class name="testCases.TC_007_VerifyMonthAndYear">
+        <test-method signature="verifyPresentMonYear()[pri:0, instance:testCases.TC_007_VerifyMonthAndYear@6c284af]" started-at="2024-04-02T15:44:26 IST" name="verifyPresentMonYear" finished-at="2024-04-02T15:44:26 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPresentMonYear -->
+      </class> <!-- testCases.TC_007_VerifyMonthAndYear -->
+      <class name="testCases.TC_002_OneCognizantPage">
+        <test-method signature="navigateToOneC()[pri:0, instance:testCases.TC_002_OneCognizantPage@1750fbeb]" started-at="2024-04-02T15:44:19 IST" name="navigateToOneC" finished-at="2024-04-02T15:44:19 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToOneC -->
+      </class> <!-- testCases.TC_002_OneCognizantPage -->
+      <class name="testCases.TC_006_VerifyCurrentDate">
+        <test-method signature="verifyPresentDate()[pri:0, instance:testCases.TC_006_VerifyCurrentDate@7e057f43]" started-at="2024-04-02T15:44:26 IST" name="verifyPresentDate" finished-at="2024-04-02T15:44:26 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPresentDate -->
+      </class> <!-- testCases.TC_006_VerifyCurrentDate -->
+      <class name="testCases.TC_009_VerifyLegends">
+        <test-method signature="verifyLast15Days()[pri:0, instance:testCases.TC_009_VerifyLegends@6440112d]" started-at="2024-04-02T15:44:27 IST" name="verifyLast15Days" finished-at="2024-04-02T15:44:27 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLast15Days -->
+      </class> <!-- testCases.TC_009_VerifyLegends -->
+      <class name="testCases.TC_001_UserInfoTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_001_UserInfoTest@6fa51cd4]" started-at="2024-04-02T15:43:28 IST" name="setUp" finished-at="2024-04-02T15:43:37 IST" duration-ms="9483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserInfoDisplay()[pri:0, instance:testCases.TC_001_UserInfoTest@6fa51cd4]" started-at="2024-04-02T15:43:37 IST" name="verifyUserInfoDisplay" finished-at="2024-04-02T15:44:19 IST" duration-ms="41276" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occured:Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='O365_MainLink_Me']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occured:Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='O365_MainLink_Me']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC_001_UserInfoTest.verifyUserInfoDisplay(TC_001_UserInfoTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserInfoDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_UserInfoTest@6fa51cd4]" started-at="2024-04-02T15:44:27 IST" name="tearDown" finished-at="2024-04-02T15:44:32 IST" duration-ms="5156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_UserInfoTest -->
+      <class name="testCases.TC_005_VerifyWeekDetails">
+        <test-method signature="comparingWeek()[pri:0, instance:testCases.TC_005_VerifyWeekDetails@6e9a5ed8]" started-at="2024-04-02T15:44:24 IST" name="comparingWeek" finished-at="2024-04-02T15:44:26 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparingWeek -->
+      </class> <!-- testCases.TC_005_VerifyWeekDetails -->
+    </test> <!-- edgetest -->
+  </suite> <!-- Suite -->
+</testng-results>
